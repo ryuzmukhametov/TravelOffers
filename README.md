@@ -16,4 +16,4 @@ Skipped scopes:
 - Unit testing
 - Error handling
 - iOS7 supporting (Xcode8 was used as IDE and iOS8 is minimal allowed) 
-- Cancelation of network operations
+- Cancellation of network operations
