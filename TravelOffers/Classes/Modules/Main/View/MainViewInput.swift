@@ -14,4 +14,13 @@ protocol MainViewInput: class {
     */
 
     func setupInitialState()
+    
+    /* 
+     showSegmentWithTitlesAndHedaer
+     showDataWithOffersforTabPosition
+     showActivityIndicator
+     showMessage
+ 
+ */
+    
 }

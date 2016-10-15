@@ -39,6 +39,8 @@
 		4E4D8FB61DB2466400C6C354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB51DB2466400C6C354 /* Assets.xcassets */; };
 		4E4D8FB91DB2466400C6C354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB71DB2466400C6C354 /* LaunchScreen.storyboard */; };
 		4E4D8FC41DB2466400C6C354 /* TravelOffersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FC31DB2466400C6C354 /* TravelOffersTests.m */; };
+		4E6426181DB270EB00337C60 /* AssembliesLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6426171DB270EB00337C60 /* AssembliesLinker.swift */; };
+		4E6426191DB275A500337C60 /* AssembliesLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6426171DB270EB00337C60 /* AssembliesLinker.swift */; };
 		5C2C634FE0BDD0030F37E54A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF21A3ED997487F08C0808 /* MainViewController.swift */; };
 		5D2C114B0D658BCBE775000A /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */; };
 		626683B38534A49F6C34972F /* MainRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */; };
@@ -104,6 +106,8 @@
 		4E4D8FBF1DB2466400C6C354 /* TravelOffersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelOffersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4D8FC31DB2466400C6C354 /* TravelOffersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelOffersTests.m; sourceTree = "<group>"; };
 		4E4D8FC51DB2466400C6C354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6426151DB26F2400337C60 /* TravelOffers-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelOffers-Bridging-Header.h"; sourceTree = "<group>"; };
+		4E6426171DB270EB00337C60 /* AssembliesLinker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssembliesLinker.swift; sourceTree = "<group>"; };
 		54DF21A3ED997487F08C0808 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6360C77B01239C02EDC4D958 /* MainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterTests.swift; sourceTree = "<group>"; };
@@ -191,10 +195,11 @@
 		4E2546821DB247E5006D8014 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4E2546971DB25E62006D8014 /* CoreLayer */,
+				4E6426161DB270D600337C60 /* AssembliesLinker */,
+				C064B4D582280D3A30D8C91D /* Modules */,
 				4E2546901DB250B9006D8014 /* BusinessLogicLayer */,
 				4E2546831DB2495C006D8014 /* Models */,
-				C064B4D582280D3A30D8C91D /* Modules */,
+				4E2546971DB25E62006D8014 /* CoreLayer */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -239,8 +244,8 @@
 			isa = PBXGroup;
 			children = (
 				4E2546A81DB264FF006D8014 /* Assemblies */,
-				4E25469D1DB25F8C006D8014 /* NetworkServices */,
 				4E2546911DB250B9006D8014 /* Services */,
+				4E25469D1DB25F8C006D8014 /* NetworkServices */,
 			);
 			path = BusinessLogicLayer;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				4E4D8FA71DB2466400C6C354 /* main.m */,
+				4E6426151DB26F2400337C60 /* TravelOffers-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -363,6 +369,14 @@
 				F8B9A7A393961B560CF0797F /* Classes */,
 			);
 			path = TravelOffersTests;
+			sourceTree = "<group>";
+		};
+		4E6426161DB270D600337C60 /* AssembliesLinker */ = {
+			isa = PBXGroup;
+			children = (
+				4E6426171DB270EB00337C60 /* AssembliesLinker.swift */,
+			);
+			path = AssembliesLinker;
 			sourceTree = "<group>";
 		};
 		602AA86E72BA3814FA69E44B /* View */ = {
@@ -697,6 +711,7 @@
 				9F9638BD14E52C842A0050FC /* MainPresenter.swift in Sources */,
 				33D460FDE912058EB05F8644 /* MainInteractorInput.swift in Sources */,
 				4182917CBFB4737F8FFBEC84 /* MainInteractorOutput.swift in Sources */,
+				4E6426181DB270EB00337C60 /* AssembliesLinker.swift in Sources */,
 				7583454212B2E7154D89D913 /* MainInteractor.swift in Sources */,
 				E8E25DACAD6B3518AA62FDF8 /* MainRouterInput.swift in Sources */,
 				D5F6393B690B82E7E905871C /* MainRouter.swift in Sources */,
@@ -725,6 +740,7 @@
 				8CAED100A152C80A1B492DA7 /* MainPresenterTests.swift in Sources */,
 				4E2546B61DB26A6D006D8014 /* MainPresenter.swift in Sources */,
 				626683B38534A49F6C34972F /* MainRouterTests.swift in Sources */,
+				4E6426191DB275A500337C60 /* AssembliesLinker.swift in Sources */,
 				4E2546BA1DB26A77006D8014 /* MainRouterInput.swift in Sources */,
 				4E2546B51DB26A6B006D8014 /* MainModuleInput.swift in Sources */,
 			);
@@ -804,6 +820,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "TravelOffers/TravelOffers-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -844,6 +861,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "TravelOffers/TravelOffers-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

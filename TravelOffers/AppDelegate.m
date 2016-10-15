@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <MagicalRecord/MagicalRecord.h>
+#import "TravelOffers-Swift.h"
 
 @interface AppDelegate ()
 

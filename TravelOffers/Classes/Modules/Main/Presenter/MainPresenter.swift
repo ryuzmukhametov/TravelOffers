@@ -13,6 +13,8 @@ class MainPresenter: MainModuleInput, MainViewOutput, MainInteractorOutput {
     var router: MainRouterInput!
 
     func viewIsReady() {
+        let busOffers = interactor.readBusOffers()
+        //interactor.refreshBusOffers()
 
     }
 }

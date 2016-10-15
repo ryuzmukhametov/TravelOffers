@@ -26,6 +26,7 @@ class MainModuleConfigurator {
         presenter.router = router
 
         let interactor = MainInteractor()
+        interactor.offerPersistenceService = AssembliesLinker.sharedInstance.serviceComponentsAssembly.offerPersistenceService
         interactor.output = presenter
 
         presenter.interactor = interactor

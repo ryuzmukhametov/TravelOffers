@@ -10,4 +10,8 @@ import Foundation
 
 protocol MainInteractorInput {
 
+    func readBusOffers() -> [OfferPlainObject]
+    
+    func refreshBusOffers()
+    
 }

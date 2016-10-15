@@ -10,8 +10,5 @@
 
 @implementation ServiceComponentsAssembly
 
-- (id<EventPersistenceServcie>)eventPersistenceService {
-    return nil;
-}
 
 @end

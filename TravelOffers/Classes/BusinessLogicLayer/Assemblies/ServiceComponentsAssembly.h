@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-@protocol EventPersistenceServcie;
+@protocol OfferPersistenceService;
 
 @interface ServiceComponentsAssembly : NSObject
 
-@property(nonatomic, strong) id<EventPersistenceServcie> eventPersistenceService;
+@property(nonatomic, strong) id<OfferPersistenceService> offerPersistenceService;
 
 @end

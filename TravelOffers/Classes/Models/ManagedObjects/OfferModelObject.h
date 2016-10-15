@@ -15,7 +15,7 @@
 @property (nonatomic, strong) NSNumber *offerId;
 @property (nonatomic, strong) NSNumber *mode;
 @property (nonatomic, strong) NSNumber *numberOfStops;
-@property (nonatomic, strong) NSString *priceInEuros;
+@property (nonatomic, strong) NSNumber *priceInEuros;
 @property (nonatomic, strong) NSString *providerLogo;
 
 @end

@@ -6,8 +6,20 @@
 //  Copyright © 2016 ryuzmukhametov. All rights reserved.
 //
 
+
+
 class MainInteractor: MainInteractorInput {
 
     weak var output: MainInteractorOutput!
+    
+    var offerPersistenceService:OfferPersistenceService! = nil
+    
+    func readBusOffers() -> [OfferPlainObject] {
+        return offerPersistenceService.fetchBusOffers()
+    }
+    
+    func refreshBusOffers() {
+        offerPersistenceService.refreshBusOffers()
+    }
 
 }

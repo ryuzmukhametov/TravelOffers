@@ -7,9 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+@class OfferPlainObject;
 
 @protocol OfferPersistenceService <NSObject>
 
 - (NSArray *)fetchOffersWithPredicate:(NSPredicate *)predicate;
+
+- (NSArray<OfferPlainObject*> *)fetchBusOffers;
+
+- (void)refreshBusOffers;
 
 @end

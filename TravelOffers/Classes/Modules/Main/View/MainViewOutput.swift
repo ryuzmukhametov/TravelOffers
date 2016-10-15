@@ -14,4 +14,12 @@ protocol MainViewOutput {
     */
 
     func viewIsReady()
+    
+    /*
+     didTapOnSegment
+     didTapOnModelWithRow
+     didSortBy
+     
+ 
+ */
 }

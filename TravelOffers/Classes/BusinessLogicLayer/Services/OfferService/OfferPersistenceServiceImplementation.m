@@ -21,4 +21,13 @@
     return offers;
 }
 
+- (NSArray<OfferPlainObject*> *)fetchBusOffers {
+    return [self fetchOffersWithPredicate:nil];
+}
+
+- (void)refreshBusOffers {
+    [self.offerNetworkService refreshOffersWithCompletionBlock:^(NSError *error) {
+        // TODO: call error
+    }];
+}
 @end
