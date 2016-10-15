@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2546871DB2499F006D8014 /* OfferModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546861DB2499F006D8014 /* OfferModelObject.m */; };
+		4E25468C1DB24AA8006D8014 /* TravelOffers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546891DB24AA8006D8014 /* TravelOffers.xcdatamodeld */; };
+		4E25468F1DB24B4E006D8014 /* OfferPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25468E1DB24B4E006D8014 /* OfferPlainObject.m */; };
+		4E2546951DB250D5006D8014 /* OfferPersistenceServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546941DB250D5006D8014 /* OfferPersistenceServiceImplementation.m */; };
+		4E25469C1DB25E92006D8014 /* NetworkClientImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25469B1DB25E92006D8014 /* NetworkClientImplementation.m */; };
+		4E2546A71DB25FEB006D8014 /* OfferNetworkServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546A61DB25FEB006D8014 /* OfferNetworkServiceImplementation.m */; };
+		4E2546AC1DB265A8006D8014 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546AB1DB265A8006D8014 /* NetworkClientsAssembly.m */; };
+		4E2546B11DB266E5006D8014 /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546B01DB266E5006D8014 /* ServiceComponentsAssembly.m */; };
 		4E4D8FA81DB2466400C6C354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FA71DB2466400C6C354 /* main.m */; };
 		4E4D8FAB1DB2466400C6C354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAA1DB2466400C6C354 /* AppDelegate.m */; };
 		4E4D8FAE1DB2466400C6C354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAD1DB2466400C6C354 /* ViewController.m */; };
 		4E4D8FB11DB2466400C6C354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAF1DB2466400C6C354 /* Main.storyboard */; };
-		4E4D8FB41DB2466400C6C354 /* TravelOffers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB21DB2466400C6C354 /* TravelOffers.xcdatamodeld */; };
 		4E4D8FB61DB2466400C6C354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB51DB2466400C6C354 /* Assets.xcassets */; };
 		4E4D8FB91DB2466400C6C354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB71DB2466400C6C354 /* LaunchScreen.storyboard */; };
 		4E4D8FC41DB2466400C6C354 /* TravelOffersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FC31DB2466400C6C354 /* TravelOffersTests.m */; };
@@ -33,6 +40,24 @@
 		29C84705B2511C77C7FE72F9 /* libPods-TravelOffersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelOffersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		358ECB2E3E544DF5E8484B05 /* Pods-TravelOffers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffers.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffers/Pods-TravelOffers.release.xcconfig"; sourceTree = "<group>"; };
 		3BF99117AAE7F533E2991F57 /* libPods-TravelOffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelOffers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2546851DB2499F006D8014 /* OfferModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferModelObject.h; sourceTree = "<group>"; };
+		4E2546861DB2499F006D8014 /* OfferModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferModelObject.m; sourceTree = "<group>"; };
+		4E25468A1DB24AA8006D8014 /* TravelOffers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelOffers.xcdatamodel; sourceTree = "<group>"; };
+		4E25468D1DB24B4E006D8014 /* OfferPlainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPlainObject.h; sourceTree = "<group>"; };
+		4E25468E1DB24B4E006D8014 /* OfferPlainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferPlainObject.m; sourceTree = "<group>"; };
+		4E2546931DB250D5006D8014 /* OfferPersistenceServiceImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPersistenceServiceImplementation.h; sourceTree = "<group>"; };
+		4E2546941DB250D5006D8014 /* OfferPersistenceServiceImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferPersistenceServiceImplementation.m; sourceTree = "<group>"; };
+		4E2546961DB250E5006D8014 /* OfferPersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPersistenceService.h; sourceTree = "<group>"; };
+		4E2546991DB25E7E006D8014 /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		4E25469A1DB25E92006D8014 /* NetworkClientImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientImplementation.h; sourceTree = "<group>"; };
+		4E25469B1DB25E92006D8014 /* NetworkClientImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientImplementation.m; sourceTree = "<group>"; };
+		4E2546A41DB25FDF006D8014 /* OfferNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferNetworkService.h; sourceTree = "<group>"; };
+		4E2546A51DB25FEB006D8014 /* OfferNetworkServiceImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferNetworkServiceImplementation.h; sourceTree = "<group>"; };
+		4E2546A61DB25FEB006D8014 /* OfferNetworkServiceImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferNetworkServiceImplementation.m; sourceTree = "<group>"; };
+		4E2546AA1DB265A8006D8014 /* NetworkClientsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsAssembly.h; sourceTree = "<group>"; };
+		4E2546AB1DB265A8006D8014 /* NetworkClientsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssembly.m; sourceTree = "<group>"; };
+		4E2546AF1DB266E5006D8014 /* ServiceComponentsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponentsAssembly.h; sourceTree = "<group>"; };
+		4E2546B01DB266E5006D8014 /* ServiceComponentsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceComponentsAssembly.m; sourceTree = "<group>"; };
 		4E4D8FA31DB2466400C6C354 /* TravelOffers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelOffers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4D8FA71DB2466400C6C354 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E4D8FA91DB2466400C6C354 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,7 +65,6 @@
 		4E4D8FAC1DB2466400C6C354 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4E4D8FAD1DB2466400C6C354 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E4D8FB01DB2466400C6C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4E4D8FB31DB2466400C6C354 /* TravelOffers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelOffers.xcdatamodel; sourceTree = "<group>"; };
 		4E4D8FB51DB2466400C6C354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E4D8FB81DB2466400C6C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E4D8FBA1DB2466400C6C354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +105,127 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4E2546821DB247E5006D8014 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546971DB25E62006D8014 /* CoreLayer */,
+				4E2546901DB250B9006D8014 /* BusinessLogicLayer */,
+				4E2546831DB2495C006D8014 /* Models */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E2546831DB2495C006D8014 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546881DB24AA8006D8014 /* CoreDataModel */,
+				4E25468B1DB24AA8006D8014 /* PlainObjects */,
+				4E2546841DB2495C006D8014 /* ManagedObjects */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E2546841DB2495C006D8014 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546851DB2499F006D8014 /* OfferModelObject.h */,
+				4E2546861DB2499F006D8014 /* OfferModelObject.m */,
+			);
+			path = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		4E2546881DB24AA8006D8014 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546891DB24AA8006D8014 /* TravelOffers.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		4E25468B1DB24AA8006D8014 /* PlainObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4E25468D1DB24B4E006D8014 /* OfferPlainObject.h */,
+				4E25468E1DB24B4E006D8014 /* OfferPlainObject.m */,
+			);
+			path = PlainObjects;
+			sourceTree = "<group>";
+		};
+		4E2546901DB250B9006D8014 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546A81DB264FF006D8014 /* Assemblies */,
+				4E25469D1DB25F8C006D8014 /* NetworkServices */,
+				4E2546911DB250B9006D8014 /* Services */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		4E2546911DB250B9006D8014 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546921DB250B9006D8014 /* OfferService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4E2546921DB250B9006D8014 /* OfferService */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546961DB250E5006D8014 /* OfferPersistenceService.h */,
+				4E2546931DB250D5006D8014 /* OfferPersistenceServiceImplementation.h */,
+				4E2546941DB250D5006D8014 /* OfferPersistenceServiceImplementation.m */,
+			);
+			path = OfferService;
+			sourceTree = "<group>";
+		};
+		4E2546971DB25E62006D8014 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546A91DB26596006D8014 /* Assemblies */,
+				4E2546981DB25E62006D8014 /* NetworkClients */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		4E2546981DB25E62006D8014 /* NetworkClients */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546991DB25E7E006D8014 /* NetworkClient.h */,
+				4E25469A1DB25E92006D8014 /* NetworkClientImplementation.h */,
+				4E25469B1DB25E92006D8014 /* NetworkClientImplementation.m */,
+			);
+			path = NetworkClients;
+			sourceTree = "<group>";
+		};
+		4E25469D1DB25F8C006D8014 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546A41DB25FDF006D8014 /* OfferNetworkService.h */,
+				4E2546A51DB25FEB006D8014 /* OfferNetworkServiceImplementation.h */,
+				4E2546A61DB25FEB006D8014 /* OfferNetworkServiceImplementation.m */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		4E2546A81DB264FF006D8014 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546AF1DB266E5006D8014 /* ServiceComponentsAssembly.h */,
+				4E2546B01DB266E5006D8014 /* ServiceComponentsAssembly.m */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		4E2546A91DB26596006D8014 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				4E2546AA1DB265A8006D8014 /* NetworkClientsAssembly.h */,
+				4E2546AB1DB265A8006D8014 /* NetworkClientsAssembly.m */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
 		4E4D8F9A1DB2466400C6C354 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +249,7 @@
 		4E4D8FA51DB2466400C6C354 /* TravelOffers */ = {
 			isa = PBXGroup;
 			children = (
+				4E2546821DB247E5006D8014 /* Classes */,
 				4E4D8FA91DB2466400C6C354 /* AppDelegate.h */,
 				4E4D8FAA1DB2466400C6C354 /* AppDelegate.m */,
 				4E4D8FAC1DB2466400C6C354 /* ViewController.h */,
@@ -112,7 +258,6 @@
 				4E4D8FB51DB2466400C6C354 /* Assets.xcassets */,
 				4E4D8FB71DB2466400C6C354 /* LaunchScreen.storyboard */,
 				4E4D8FBA1DB2466400C6C354 /* Info.plist */,
-				4E4D8FB21DB2466400C6C354 /* TravelOffers.xcdatamodeld */,
 				4E4D8FA61DB2466400C6C354 /* Supporting Files */,
 			);
 			path = TravelOffers;
@@ -349,10 +494,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4D8FB41DB2466400C6C354 /* TravelOffers.xcdatamodeld in Sources */,
+				4E25468F1DB24B4E006D8014 /* OfferPlainObject.m in Sources */,
+				4E2546AC1DB265A8006D8014 /* NetworkClientsAssembly.m in Sources */,
+				4E25468C1DB24AA8006D8014 /* TravelOffers.xcdatamodeld in Sources */,
 				4E4D8FAE1DB2466400C6C354 /* ViewController.m in Sources */,
+				4E2546B11DB266E5006D8014 /* ServiceComponentsAssembly.m in Sources */,
+				4E2546951DB250D5006D8014 /* OfferPersistenceServiceImplementation.m in Sources */,
+				4E2546A71DB25FEB006D8014 /* OfferNetworkServiceImplementation.m in Sources */,
 				4E4D8FAB1DB2466400C6C354 /* AppDelegate.m in Sources */,
 				4E4D8FA81DB2466400C6C354 /* main.m in Sources */,
+				4E2546871DB2499F006D8014 /* OfferModelObject.m in Sources */,
+				4E25469C1DB25E92006D8014 /* NetworkClientImplementation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -475,7 +627,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -569,12 +721,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4E4D8FB21DB2466400C6C354 /* TravelOffers.xcdatamodeld */ = {
+		4E2546891DB24AA8006D8014 /* TravelOffers.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4E4D8FB31DB2466400C6C354 /* TravelOffers.xcdatamodel */,
+				4E25468A1DB24AA8006D8014 /* TravelOffers.xcdatamodel */,
 			);
-			currentVersion = 4E4D8FB31DB2466400C6C354 /* TravelOffers.xcdatamodel */;
+			currentVersion = 4E25468A1DB24AA8006D8014 /* TravelOffers.xcdatamodel */;
 			path = TravelOffers.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

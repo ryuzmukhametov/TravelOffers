@@ -7,6 +7,7 @@ target 'TravelOffers' do
 
   # Pods for TravelOffers
   pod 'CocoaLumberjack', '~> 2.0'
+  pod 'MagicalRecord', '~> 2.3'
 
   target 'TravelOffersTests' do
     inherit! :search_paths
