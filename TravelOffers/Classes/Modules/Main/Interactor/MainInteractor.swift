@@ -14,12 +14,38 @@ class MainInteractor: MainInteractorInput {
     
     var offerPersistenceService:OfferPersistenceService! = nil
     
+    // NOTE: MainInteractorInput
+    func readTrainOffers() -> [OfferPlainObject] {
+        return offerPersistenceService.fetchTrainOffers()
+    }
+    
     func readBusOffers() -> [OfferPlainObject] {
         return offerPersistenceService.fetchBusOffers()
     }
     
-    func refreshBusOffers() {
-        offerPersistenceService.refreshBusOffers()
+    func readFlightOffers() -> [OfferPlainObject] {
+        return offerPersistenceService.fetchFlightOffers()
     }
+    
+    func refreshTrainOffers() {
+        offerPersistenceService.refreshTrainOffersWithCompletionBlock { (error) in
+            self.output.didRefreshTrainOffersWithError(error)
+        }
+    }
+    
+    func refreshBusOffers() {
+        offerPersistenceService.refreshBusOffersWithCompletionBlock { (error) in
+            self.output.didRefreshBusOffersWithError(error)
+        }
+    }
+    
+    func refreshFlightOffers() {
+        offerPersistenceService.refreshFlightOffersWithCompletionBlock { (error) in
+            self.output.didRefreshFlightOffersWithError(error)
+        }
+    }
+
+    
+    
 
 }

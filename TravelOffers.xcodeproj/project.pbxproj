@@ -12,10 +12,13 @@
 		33D460FDE912058EB05F8644 /* MainInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51EEB734A2EB6F91B1DEFC4 /* MainInteractorInput.swift */; };
 		36CDFBEF25852A34DA630767 /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381C0DE76EE0FB275DB38E2 /* MainViewInput.swift */; };
 		4182917CBFB4737F8FFBEC84 /* MainInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E840667660C5BB995BB73270 /* MainInteractorOutput.swift */; };
+		4A04B8991DB2A5C9006BFDB6 /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04B8981DB2A5C9006BFDB6 /* OfferTableViewCell.swift */; };
+		4A04B89A1DB2A92D006BFDB6 /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04B8981DB2A5C9006BFDB6 /* OfferTableViewCell.swift */; };
+		4A04B8A11DB2BFB1006BFDB6 /* ImageLoaderImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A04B8A01DB2BFB1006BFDB6 /* ImageLoaderImplementation.m */; };
+		4A781F3D1DB2DEFC002509C0 /* OfferPersistenceServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A781F3C1DB2DEFC002509C0 /* OfferPersistenceServiceImplementation.m */; };
 		4E2546871DB2499F006D8014 /* OfferModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546861DB2499F006D8014 /* OfferModelObject.m */; };
 		4E25468C1DB24AA8006D8014 /* TravelOffers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546891DB24AA8006D8014 /* TravelOffers.xcdatamodeld */; };
 		4E25468F1DB24B4E006D8014 /* OfferPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25468E1DB24B4E006D8014 /* OfferPlainObject.m */; };
-		4E2546951DB250D5006D8014 /* OfferPersistenceServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546941DB250D5006D8014 /* OfferPersistenceServiceImplementation.m */; };
 		4E25469C1DB25E92006D8014 /* NetworkClientImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25469B1DB25E92006D8014 /* NetworkClientImplementation.m */; };
 		4E2546A71DB25FEB006D8014 /* OfferNetworkServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546A61DB25FEB006D8014 /* OfferNetworkServiceImplementation.m */; };
 		4E2546AC1DB265A8006D8014 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546AB1DB265A8006D8014 /* NetworkClientsAssembly.m */; };
@@ -34,7 +37,6 @@
 		4E2546BD1DB26A7F006D8014 /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32323D471B24957095C96A2F /* MainInitializer.swift */; };
 		4E4D8FA81DB2466400C6C354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FA71DB2466400C6C354 /* main.m */; };
 		4E4D8FAB1DB2466400C6C354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAA1DB2466400C6C354 /* AppDelegate.m */; };
-		4E4D8FAE1DB2466400C6C354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAD1DB2466400C6C354 /* ViewController.m */; };
 		4E4D8FB11DB2466400C6C354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAF1DB2466400C6C354 /* Main.storyboard */; };
 		4E4D8FB61DB2466400C6C354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB51DB2466400C6C354 /* Assets.xcassets */; };
 		4E4D8FB91DB2466400C6C354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB71DB2466400C6C354 /* LaunchScreen.storyboard */; };
@@ -43,18 +45,13 @@
 		4E6426191DB275A500337C60 /* AssembliesLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6426171DB270EB00337C60 /* AssembliesLinker.swift */; };
 		5C2C634FE0BDD0030F37E54A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF21A3ED997487F08C0808 /* MainViewController.swift */; };
 		5D2C114B0D658BCBE775000A /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */; };
-		626683B38534A49F6C34972F /* MainRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */; };
 		660BD79DB312080F1C728F7A /* MainModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6BA16BFAFFF95C164F495 /* MainModuleInput.swift */; };
+		71847D11F1F860D7CAB5B6DF /* Pods_TravelOffersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF0ADA4F07A20A4D02614A9 /* Pods_TravelOffersTests.framework */; };
 		7583454212B2E7154D89D913 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360C77B01239C02EDC4D958 /* MainInteractor.swift */; };
-		7DC73AB0990C0841C1772710 /* libPods-TravelOffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF99117AAE7F533E2991F57 /* libPods-TravelOffers.a */; };
-		80A8CF8D886AB77EFB362907 /* MainConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84FCCE76EC58C9BE85B9B5D /* MainConfiguratorTests.swift */; };
-		8CAED100A152C80A1B492DA7 /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856EC29D1F0B014E5D2BD0D /* MainPresenterTests.swift */; };
 		9F9638BD14E52C842A0050FC /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983E15C6CC05A7E932556372 /* MainPresenter.swift */; };
-		D0153022136E78EE4F9A04D3 /* MainInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483D7AF530419CA9EF9D8E62 /* MainInteractorTests.swift */; };
 		D5F6393B690B82E7E905871C /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1758FE2F57CFBC0B3C6BDBA8 /* MainRouter.swift */; };
 		E8E25DACAD6B3518AA62FDF8 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD1E4FB22E252FF2070827 /* MainRouterInput.swift */; };
-		ECEA516437D8E220672BCED3 /* MainViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8FCEC98B60D476FCB269B /* MainViewTests.swift */; };
-		FC81BAC8D02F5B1CE5831499 /* libPods-TravelOffersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C84705B2511C77C7FE72F9 /* libPods-TravelOffersTests.a */; };
+		F765B74908FFC2E01539A262 /* Pods_TravelOffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E74EE4F326F40972683E7B /* Pods_TravelOffers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,20 +66,22 @@
 
 /* Begin PBXFileReference section */
 		1758FE2F57CFBC0B3C6BDBA8 /* MainRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
-		29C84705B2511C77C7FE72F9 /* libPods-TravelOffersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelOffersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32323D471B24957095C96A2F /* MainInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInitializer.swift; sourceTree = "<group>"; };
 		358ECB2E3E544DF5E8484B05 /* Pods-TravelOffers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffers.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffers/Pods-TravelOffers.release.xcconfig"; sourceTree = "<group>"; };
 		38C9B81EBED28977F2349D18 /* MainConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
-		3BF99117AAE7F533E2991F57 /* libPods-TravelOffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelOffers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		483D7AF530419CA9EF9D8E62 /* MainInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorTests.swift; sourceTree = "<group>"; };
+		4A04B8981DB2A5C9006BFDB6 /* OfferTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferTableViewCell.swift; sourceTree = "<group>"; };
+		4A04B89F1DB2BFB1006BFDB6 /* ImageLoaderImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoaderImplementation.h; sourceTree = "<group>"; };
+		4A04B8A01DB2BFB1006BFDB6 /* ImageLoaderImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoaderImplementation.m; sourceTree = "<group>"; };
+		4A04B8A21DB2BFC1006BFDB6 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
+		4A19CDBE1DB2DC1800B0705A /* TravelOffers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelOffers-Prefix.pch"; sourceTree = "<group>"; };
+		4A781F3A1DB2DEFC002509C0 /* OfferPersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPersistenceService.h; sourceTree = "<group>"; };
+		4A781F3B1DB2DEFC002509C0 /* OfferPersistenceServiceImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPersistenceServiceImplementation.h; sourceTree = "<group>"; };
+		4A781F3C1DB2DEFC002509C0 /* OfferPersistenceServiceImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferPersistenceServiceImplementation.m; sourceTree = "<group>"; };
 		4E2546851DB2499F006D8014 /* OfferModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferModelObject.h; sourceTree = "<group>"; };
 		4E2546861DB2499F006D8014 /* OfferModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferModelObject.m; sourceTree = "<group>"; };
 		4E25468A1DB24AA8006D8014 /* TravelOffers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelOffers.xcdatamodel; sourceTree = "<group>"; };
 		4E25468D1DB24B4E006D8014 /* OfferPlainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPlainObject.h; sourceTree = "<group>"; };
 		4E25468E1DB24B4E006D8014 /* OfferPlainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferPlainObject.m; sourceTree = "<group>"; };
-		4E2546931DB250D5006D8014 /* OfferPersistenceServiceImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPersistenceServiceImplementation.h; sourceTree = "<group>"; };
-		4E2546941DB250D5006D8014 /* OfferPersistenceServiceImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferPersistenceServiceImplementation.m; sourceTree = "<group>"; };
-		4E2546961DB250E5006D8014 /* OfferPersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPersistenceService.h; sourceTree = "<group>"; };
 		4E2546991DB25E7E006D8014 /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
 		4E25469A1DB25E92006D8014 /* NetworkClientImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientImplementation.h; sourceTree = "<group>"; };
 		4E25469B1DB25E92006D8014 /* NetworkClientImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientImplementation.m; sourceTree = "<group>"; };
@@ -97,8 +96,6 @@
 		4E4D8FA71DB2466400C6C354 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E4D8FA91DB2466400C6C354 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E4D8FAA1DB2466400C6C354 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4E4D8FAC1DB2466400C6C354 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4E4D8FAD1DB2466400C6C354 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E4D8FB01DB2466400C6C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E4D8FB51DB2466400C6C354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E4D8FB81DB2466400C6C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,19 +107,17 @@
 		4E6426171DB270EB00337C60 /* AssembliesLinker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssembliesLinker.swift; sourceTree = "<group>"; };
 		54DF21A3ED997487F08C0808 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6360C77B01239C02EDC4D958 /* MainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
-		73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterTests.swift; sourceTree = "<group>"; };
 		75DD1E4FB22E252FF2070827 /* MainRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterInput.swift; sourceTree = "<group>"; };
-		7856EC29D1F0B014E5D2BD0D /* MainPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
 		8524C584C9A536624042FE27 /* Pods-TravelOffersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffersTests/Pods-TravelOffersTests.release.xcconfig"; sourceTree = "<group>"; };
 		8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewOutput.swift; sourceTree = "<group>"; };
+		8EF0ADA4F07A20A4D02614A9 /* Pods_TravelOffersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelOffersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		983E15C6CC05A7E932556372 /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
-		A84FCCE76EC58C9BE85B9B5D /* MainConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainConfiguratorTests.swift; sourceTree = "<group>"; };
 		B51EEB734A2EB6F91B1DEFC4 /* MainInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorInput.swift; sourceTree = "<group>"; };
 		B7D20CD8DCA50CBF3B02E5F2 /* Pods-TravelOffers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffers/Pods-TravelOffers.debug.xcconfig"; sourceTree = "<group>"; };
-		CDF8FCEC98B60D476FCB269B /* MainViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewTests.swift; sourceTree = "<group>"; };
 		DBF6BA16BFAFFF95C164F495 /* MainModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInput.swift; sourceTree = "<group>"; };
 		E381C0DE76EE0FB275DB38E2 /* MainViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
 		E840667660C5BB995BB73270 /* MainInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorOutput.swift; sourceTree = "<group>"; };
+		F1E74EE4F326F40972683E7B /* Pods_TravelOffers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelOffers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F531A71E7D04CA27BB89EAC7 /* Pods-TravelOffersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffersTests/Pods-TravelOffersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DC73AB0990C0841C1772710 /* libPods-TravelOffers.a in Frameworks */,
+				F765B74908FFC2E01539A262 /* Pods_TravelOffers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,33 +134,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC81BAC8D02F5B1CE5831499 /* libPods-TravelOffersTests.a in Frameworks */,
+				71847D11F1F860D7CAB5B6DF /* Pods_TravelOffersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06B511DA03A4DF2E6217B9F8 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				950B0E80AEF79D7C7CCC1586 /* Configurator */,
-				602AA86E72BA3814FA69E44B /* View */,
-				A86B4DCA63652A88FB56F855 /* Interactor */,
-				B0B09BB47757B709584E58D3 /* Presenter */,
-				2EA9B8386F3AAA3C52EBF496 /* Router */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		0A84B98D02D72EBE44C665A9 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				06B511DA03A4DF2E6217B9F8 /* Main */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
 		1D6B415852B54C7527B333AE /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,21 +150,33 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		2EA9B8386F3AAA3C52EBF496 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		3D0FDA25A7B51A73C4B8FC59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BF99117AAE7F533E2991F57 /* libPods-TravelOffers.a */,
-				29C84705B2511C77C7FE72F9 /* libPods-TravelOffersTests.a */,
+				F1E74EE4F326F40972683E7B /* Pods_TravelOffers.framework */,
+				8EF0ADA4F07A20A4D02614A9 /* Pods_TravelOffersTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A04B89B1DB2BF6B006BFDB6 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				4A04B8A21DB2BFC1006BFDB6 /* ImageLoader.h */,
+				4A04B89F1DB2BFB1006BFDB6 /* ImageLoaderImplementation.h */,
+				4A04B8A01DB2BFB1006BFDB6 /* ImageLoaderImplementation.m */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		4A781F391DB2DEFC002509C0 /* PersistenceServices */ = {
+			isa = PBXGroup;
+			children = (
+				4A781F3A1DB2DEFC002509C0 /* OfferPersistenceService.h */,
+				4A781F3B1DB2DEFC002509C0 /* OfferPersistenceServiceImplementation.h */,
+				4A781F3C1DB2DEFC002509C0 /* OfferPersistenceServiceImplementation.m */,
+			);
+			path = PersistenceServices;
 			sourceTree = "<group>";
 		};
 		4E2546821DB247E5006D8014 /* Classes */ = {
@@ -244,34 +231,17 @@
 			isa = PBXGroup;
 			children = (
 				4E2546A81DB264FF006D8014 /* Assemblies */,
-				4E2546911DB250B9006D8014 /* Services */,
+				4A781F391DB2DEFC002509C0 /* PersistenceServices */,
 				4E25469D1DB25F8C006D8014 /* NetworkServices */,
 			);
 			path = BusinessLogicLayer;
-			sourceTree = "<group>";
-		};
-		4E2546911DB250B9006D8014 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				4E2546921DB250B9006D8014 /* OfferService */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		4E2546921DB250B9006D8014 /* OfferService */ = {
-			isa = PBXGroup;
-			children = (
-				4E2546961DB250E5006D8014 /* OfferPersistenceService.h */,
-				4E2546931DB250D5006D8014 /* OfferPersistenceServiceImplementation.h */,
-				4E2546941DB250D5006D8014 /* OfferPersistenceServiceImplementation.m */,
-			);
-			path = OfferService;
 			sourceTree = "<group>";
 		};
 		4E2546971DB25E62006D8014 /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
 				4E2546A91DB26596006D8014 /* Assemblies */,
+				4A04B89B1DB2BF6B006BFDB6 /* ImageLoader */,
 				4E2546981DB25E62006D8014 /* NetworkClients */,
 			);
 			path = CoreLayer;
@@ -341,8 +311,6 @@
 				4E2546821DB247E5006D8014 /* Classes */,
 				4E4D8FA91DB2466400C6C354 /* AppDelegate.h */,
 				4E4D8FAA1DB2466400C6C354 /* AppDelegate.m */,
-				4E4D8FAC1DB2466400C6C354 /* ViewController.h */,
-				4E4D8FAD1DB2466400C6C354 /* ViewController.m */,
 				4E4D8FAF1DB2466400C6C354 /* Main.storyboard */,
 				4E4D8FB51DB2466400C6C354 /* Assets.xcassets */,
 				4E4D8FB71DB2466400C6C354 /* LaunchScreen.storyboard */,
@@ -357,6 +325,7 @@
 			children = (
 				4E4D8FA71DB2466400C6C354 /* main.m */,
 				4E6426151DB26F2400337C60 /* TravelOffers-Bridging-Header.h */,
+				4A19CDBE1DB2DC1800B0705A /* TravelOffers-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -366,7 +335,6 @@
 			children = (
 				4E4D8FC31DB2466400C6C354 /* TravelOffersTests.m */,
 				4E4D8FC51DB2466400C6C354 /* Info.plist */,
-				F8B9A7A393961B560CF0797F /* Classes */,
 			);
 			path = TravelOffersTests;
 			sourceTree = "<group>";
@@ -377,14 +345,6 @@
 				4E6426171DB270EB00337C60 /* AssembliesLinker.swift */,
 			);
 			path = AssembliesLinker;
-			sourceTree = "<group>";
-		};
-		602AA86E72BA3814FA69E44B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CDF8FCEC98B60D476FCB269B /* MainViewTests.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		80F3FFCC6CCBA3AA7B20454C /* Presenter */ = {
@@ -413,16 +373,9 @@
 				E381C0DE76EE0FB275DB38E2 /* MainViewInput.swift */,
 				8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */,
 				54DF21A3ED997487F08C0808 /* MainViewController.swift */,
+				4A04B8981DB2A5C9006BFDB6 /* OfferTableViewCell.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		950B0E80AEF79D7C7CCC1586 /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				A84FCCE76EC58C9BE85B9B5D /* MainConfiguratorTests.swift */,
-			);
-			path = Configurator;
 			sourceTree = "<group>";
 		};
 		A0047911224FAB47876DF7C8 /* Interactor */ = {
@@ -433,22 +386,6 @@
 				6360C77B01239C02EDC4D958 /* MainInteractor.swift */,
 			);
 			path = Interactor;
-			sourceTree = "<group>";
-		};
-		A86B4DCA63652A88FB56F855 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				483D7AF530419CA9EF9D8E62 /* MainInteractorTests.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		B0B09BB47757B709584E58D3 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				7856EC29D1F0B014E5D2BD0D /* MainPresenterTests.swift */,
-			);
-			path = Presenter;
 			sourceTree = "<group>";
 		};
 		C064B4D582280D3A30D8C91D /* Modules */ = {
@@ -478,14 +415,6 @@
 				DE1299D8B8C8057D4D5EB51F /* Configurator */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		F8B9A7A393961B560CF0797F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0A84B98D02D72EBE44C665A9 /* Modules */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -693,12 +622,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A781F3D1DB2DEFC002509C0 /* OfferPersistenceServiceImplementation.m in Sources */,
 				4E25468F1DB24B4E006D8014 /* OfferPlainObject.m in Sources */,
 				4E2546AC1DB265A8006D8014 /* NetworkClientsAssembly.m in Sources */,
 				4E25468C1DB24AA8006D8014 /* TravelOffers.xcdatamodeld in Sources */,
-				4E4D8FAE1DB2466400C6C354 /* ViewController.m in Sources */,
 				4E2546B11DB266E5006D8014 /* ServiceComponentsAssembly.m in Sources */,
-				4E2546951DB250D5006D8014 /* OfferPersistenceServiceImplementation.m in Sources */,
 				4E2546A71DB25FEB006D8014 /* OfferNetworkServiceImplementation.m in Sources */,
 				4E4D8FAB1DB2466400C6C354 /* AppDelegate.m in Sources */,
 				4E4D8FA81DB2466400C6C354 /* main.m in Sources */,
@@ -709,11 +637,13 @@
 				5C2C634FE0BDD0030F37E54A /* MainViewController.swift in Sources */,
 				660BD79DB312080F1C728F7A /* MainModuleInput.swift in Sources */,
 				9F9638BD14E52C842A0050FC /* MainPresenter.swift in Sources */,
+				4A04B8A11DB2BFB1006BFDB6 /* ImageLoaderImplementation.m in Sources */,
 				33D460FDE912058EB05F8644 /* MainInteractorInput.swift in Sources */,
 				4182917CBFB4737F8FFBEC84 /* MainInteractorOutput.swift in Sources */,
 				4E6426181DB270EB00337C60 /* AssembliesLinker.swift in Sources */,
 				7583454212B2E7154D89D913 /* MainInteractor.swift in Sources */,
 				E8E25DACAD6B3518AA62FDF8 /* MainRouterInput.swift in Sources */,
+				4A04B8991DB2A5C9006BFDB6 /* OfferTableViewCell.swift in Sources */,
 				D5F6393B690B82E7E905871C /* MainRouter.swift in Sources */,
 				18308CC288255347B011AC1D /* MainConfigurator.swift in Sources */,
 				039FF6B24FCF4DF8F34CD05D /* MainInitializer.swift in Sources */,
@@ -729,17 +659,13 @@
 				4E2546B31DB26A66006D8014 /* MainViewOutput.swift in Sources */,
 				4E4D8FC41DB2466400C6C354 /* TravelOffersTests.m in Sources */,
 				4E2546B21DB26A64006D8014 /* MainViewInput.swift in Sources */,
-				80A8CF8D886AB77EFB362907 /* MainConfiguratorTests.swift in Sources */,
 				4E2546B91DB26A74006D8014 /* MainInteractor.swift in Sources */,
 				4E2546BD1DB26A7F006D8014 /* MainInitializer.swift in Sources */,
 				4E2546BC1DB26A7D006D8014 /* MainConfigurator.swift in Sources */,
 				4E2546B81DB26A72006D8014 /* MainInteractorOutput.swift in Sources */,
-				ECEA516437D8E220672BCED3 /* MainViewTests.swift in Sources */,
-				D0153022136E78EE4F9A04D3 /* MainInteractorTests.swift in Sources */,
 				4E2546B41DB26A69006D8014 /* MainViewController.swift in Sources */,
-				8CAED100A152C80A1B492DA7 /* MainPresenterTests.swift in Sources */,
 				4E2546B61DB26A6D006D8014 /* MainPresenter.swift in Sources */,
-				626683B38534A49F6C34972F /* MainRouterTests.swift in Sources */,
+				4A04B89A1DB2A92D006BFDB6 /* OfferTableViewCell.swift in Sources */,
 				4E6426191DB275A500337C60 /* AssembliesLinker.swift in Sources */,
 				4E2546BA1DB26A77006D8014 /* MainRouterInput.swift in Sources */,
 				4E2546B51DB26A6B006D8014 /* MainModuleInput.swift in Sources */,
@@ -872,6 +798,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6K9L8GL4MH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelOffers/TravelOffers-Prefix.pch";
 				INFOPLIST_FILE = TravelOffers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryuzmukhametov.TravelOffers;
@@ -886,6 +814,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6K9L8GL4MH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelOffers/TravelOffers-Prefix.pch";
 				INFOPLIST_FILE = TravelOffers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryuzmukhametov.TravelOffers;

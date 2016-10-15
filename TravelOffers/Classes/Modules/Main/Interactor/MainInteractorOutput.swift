@@ -10,4 +10,7 @@ import Foundation
 
 protocol MainInteractorOutput: class {
 
+    func didRefreshTrainOffersWithError(error:NSError?)
+    func didRefreshBusOffersWithError(error:NSError?)
+    func didRefreshFlightOffersWithError(error:NSError?)
 }

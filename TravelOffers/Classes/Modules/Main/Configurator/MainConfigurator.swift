@@ -31,6 +31,10 @@ class MainModuleConfigurator {
 
         presenter.interactor = interactor
         viewController.output = presenter
+        
+        let imageLoader = ImageLoaderImplementation()
+        imageLoader.networkClient = NetworkClientImplementation()
+        viewController.imageLoader = imageLoader
     }
 
 }

@@ -15,11 +15,6 @@ protocol MainViewOutput {
 
     func viewIsReady()
     
-    /*
-     didTapOnSegment
-     didTapOnModelWithRow
-     didSortBy
-     
- 
- */
+    func didSelectSegmentWithPosition(position:Int)
+    
 }

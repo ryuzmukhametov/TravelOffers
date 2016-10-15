@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^OfferNetworkServiceCompletionBlock)(NSError *error);
+typedef void(^OfferNetworkServiceCompletionBlock)(NSArray *jsonArr, NSError *error);
 
 @protocol OfferNetworkService <NSObject>
 
-- (void)refreshOffersWithCompletionBlock:(OfferNetworkServiceCompletionBlock)block;
+- (void)refreshTrainOffersWithCompletionBlock:(OfferNetworkServiceCompletionBlock)block;
+- (void)refreshBusOffersWithCompletionBlock:(OfferNetworkServiceCompletionBlock)block;
+- (void)refreshFlightOffersWithCompletionBlock:(OfferNetworkServiceCompletionBlock)block;
 
 @end

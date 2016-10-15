@@ -13,14 +13,10 @@ protocol MainViewInput: class {
         Setup initial state of the view
     */
 
-    func setupInitialState()
-    
-    /* 
-     showSegmentWithTitlesAndHedaer
-     showDataWithOffersforTabPosition
-     showActivityIndicator
-     showMessage
- 
- */
+    func setupInitialState()    
+    func refreshTableWithOffers(offers:[OfferPlainObject])
+    func selectSegmentPosition(segmentPosition:Int)
+    func showActivityIndicator()
+    func showMessage(message:String)
     
 }

@@ -8,11 +8,26 @@
 
 #import "NetworkClientImplementation.h"
 
+@interface NetworkClientImplementation()
+@property(nonatomic, strong) NSURLSession *session;
+@end
+
 @implementation NetworkClientImplementation
 
-- (void)sendRequest:(NSURLRequest *)request completionBlock:(NetworkClientCompletionBlock)block {
-    NSURLSession *session = [NSURLSession sharedSession];
-    NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+        NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration delegate:nil delegateQueue:[NSOperationQueue mainQueue]];
+        self.session = session;
+    }
+    return self;
+}
+
+
+- (void)sendRequest:(NSURLRequest *)request completionBlock:(NetworkClientCompletionBlock)block {        
+    NSURLSessionDataTask *dataTask = [self.session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (block) {
             NSHTTPURLResponse *serverResponse = nil;
             if ([response isKindOfClass:[NSHTTPURLResponse class]]) {

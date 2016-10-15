@@ -10,8 +10,12 @@ import Foundation
 
 protocol MainInteractorInput {
 
+    func readTrainOffers() -> [OfferPlainObject]
     func readBusOffers() -> [OfferPlainObject]
+    func readFlightOffers() -> [OfferPlainObject]
     
+    func refreshTrainOffers()
     func refreshBusOffers()
+    func refreshFlightOffers()
     
 }

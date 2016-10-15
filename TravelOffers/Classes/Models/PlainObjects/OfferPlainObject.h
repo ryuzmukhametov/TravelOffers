@@ -10,13 +10,13 @@
 
 @interface OfferPlainObject : NSObject
 
-@property (nonatomic, strong) NSString *arrivalTime;
-@property (nonatomic, strong) NSString *departureTime;
-@property (nonatomic, strong) NSNumber *offerId;
-@property (nonatomic, strong) NSNumber *mode;
-@property (nonatomic, strong) NSNumber *numberOfStops;
-@property (nonatomic, strong) NSString *priceInEuros;
-@property (nonatomic, strong) NSString *providerLogo;
+@property (nonatomic, copy, readwrite) NSString *arrivalTime;
+@property (nonatomic, copy, readwrite) NSString *departureTime;
+@property (nonatomic, copy, readwrite) NSNumber *offerId;
+@property (nonatomic, copy, readwrite) NSNumber *mode;
+@property (nonatomic, copy, readwrite) NSNumber *numberOfStops;
+@property (nonatomic, copy, readwrite) NSNumber *priceInEuros;
+@property (nonatomic, copy, readwrite) NSString *providerLogo;
 
-
+@property (nonatomic, strong) NSString *duration;
 @end

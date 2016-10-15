@@ -15,6 +15,6 @@
 #import "ServiceComponentsAssembly.h"
 #import "NetworkClientsAssembly.h"
 #import "OfferPlainObject.h"
-
+#import "ImageLoaderImplementation.h"
 #endif /* TravelOffers_Bridging_Header_h_h */
 

@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <MagicalRecord/MagicalRecord.h>
 #import "TravelOffers-Swift.h"
 
 @interface AppDelegate ()
@@ -19,7 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [MagicalRecord setupAutoMigratingCoreDataStack];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
+    [DDLog addLogger:[DDASLLogger sharedInstance]]; // ASL = Apple System Logs
+
+    DDLogVerbose(@"didFinishLaunchingWithOptions");
     return YES;
 }
 
