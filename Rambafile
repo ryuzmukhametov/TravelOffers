@@ -1,0 +1,30 @@
+### Headers settings
+company: ryuzmukhametov
+
+### Xcode project settings
+project_name: TravelOffers
+xcodeproj_path: TravelOffers.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: TravelOffers
+
+# The file path for new modules
+project_file_path: TravelOffers/Classes/Modules
+
+# The Xcode group path to new modules
+project_group_path: TravelOffers/Classes/Modules
+
+test_target: TravelOffersTests
+
+test_file_path: TravelOffersTests/Classes/Modules
+
+test_group_path: TravelOffersTests/Classes/Modules
+
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/ryuzmukhametov/generamba-catalog'
+templates:
+- {name: swifty_viper} 

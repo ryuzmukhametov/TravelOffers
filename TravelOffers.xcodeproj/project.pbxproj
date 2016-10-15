@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039FF6B24FCF4DF8F34CD05D /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32323D471B24957095C96A2F /* MainInitializer.swift */; };
+		18308CC288255347B011AC1D /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9B81EBED28977F2349D18 /* MainConfigurator.swift */; };
+		33D460FDE912058EB05F8644 /* MainInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51EEB734A2EB6F91B1DEFC4 /* MainInteractorInput.swift */; };
+		36CDFBEF25852A34DA630767 /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381C0DE76EE0FB275DB38E2 /* MainViewInput.swift */; };
+		4182917CBFB4737F8FFBEC84 /* MainInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E840667660C5BB995BB73270 /* MainInteractorOutput.swift */; };
 		4E2546871DB2499F006D8014 /* OfferModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546861DB2499F006D8014 /* OfferModelObject.m */; };
 		4E25468C1DB24AA8006D8014 /* TravelOffers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546891DB24AA8006D8014 /* TravelOffers.xcdatamodeld */; };
 		4E25468F1DB24B4E006D8014 /* OfferPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25468E1DB24B4E006D8014 /* OfferPlainObject.m */; };
@@ -15,6 +20,18 @@
 		4E2546A71DB25FEB006D8014 /* OfferNetworkServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546A61DB25FEB006D8014 /* OfferNetworkServiceImplementation.m */; };
 		4E2546AC1DB265A8006D8014 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546AB1DB265A8006D8014 /* NetworkClientsAssembly.m */; };
 		4E2546B11DB266E5006D8014 /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2546B01DB266E5006D8014 /* ServiceComponentsAssembly.m */; };
+		4E2546B21DB26A64006D8014 /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381C0DE76EE0FB275DB38E2 /* MainViewInput.swift */; };
+		4E2546B31DB26A66006D8014 /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */; };
+		4E2546B41DB26A69006D8014 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF21A3ED997487F08C0808 /* MainViewController.swift */; };
+		4E2546B51DB26A6B006D8014 /* MainModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6BA16BFAFFF95C164F495 /* MainModuleInput.swift */; };
+		4E2546B61DB26A6D006D8014 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983E15C6CC05A7E932556372 /* MainPresenter.swift */; };
+		4E2546B71DB26A70006D8014 /* MainInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51EEB734A2EB6F91B1DEFC4 /* MainInteractorInput.swift */; };
+		4E2546B81DB26A72006D8014 /* MainInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E840667660C5BB995BB73270 /* MainInteractorOutput.swift */; };
+		4E2546B91DB26A74006D8014 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360C77B01239C02EDC4D958 /* MainInteractor.swift */; };
+		4E2546BA1DB26A77006D8014 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD1E4FB22E252FF2070827 /* MainRouterInput.swift */; };
+		4E2546BB1DB26A79006D8014 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1758FE2F57CFBC0B3C6BDBA8 /* MainRouter.swift */; };
+		4E2546BC1DB26A7D006D8014 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C9B81EBED28977F2349D18 /* MainConfigurator.swift */; };
+		4E2546BD1DB26A7F006D8014 /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32323D471B24957095C96A2F /* MainInitializer.swift */; };
 		4E4D8FA81DB2466400C6C354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FA71DB2466400C6C354 /* main.m */; };
 		4E4D8FAB1DB2466400C6C354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAA1DB2466400C6C354 /* AppDelegate.m */; };
 		4E4D8FAE1DB2466400C6C354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FAD1DB2466400C6C354 /* ViewController.m */; };
@@ -22,7 +39,19 @@
 		4E4D8FB61DB2466400C6C354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB51DB2466400C6C354 /* Assets.xcassets */; };
 		4E4D8FB91DB2466400C6C354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D8FB71DB2466400C6C354 /* LaunchScreen.storyboard */; };
 		4E4D8FC41DB2466400C6C354 /* TravelOffersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D8FC31DB2466400C6C354 /* TravelOffersTests.m */; };
+		5C2C634FE0BDD0030F37E54A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF21A3ED997487F08C0808 /* MainViewController.swift */; };
+		5D2C114B0D658BCBE775000A /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */; };
+		626683B38534A49F6C34972F /* MainRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */; };
+		660BD79DB312080F1C728F7A /* MainModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6BA16BFAFFF95C164F495 /* MainModuleInput.swift */; };
+		7583454212B2E7154D89D913 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360C77B01239C02EDC4D958 /* MainInteractor.swift */; };
 		7DC73AB0990C0841C1772710 /* libPods-TravelOffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF99117AAE7F533E2991F57 /* libPods-TravelOffers.a */; };
+		80A8CF8D886AB77EFB362907 /* MainConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84FCCE76EC58C9BE85B9B5D /* MainConfiguratorTests.swift */; };
+		8CAED100A152C80A1B492DA7 /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856EC29D1F0B014E5D2BD0D /* MainPresenterTests.swift */; };
+		9F9638BD14E52C842A0050FC /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983E15C6CC05A7E932556372 /* MainPresenter.swift */; };
+		D0153022136E78EE4F9A04D3 /* MainInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483D7AF530419CA9EF9D8E62 /* MainInteractorTests.swift */; };
+		D5F6393B690B82E7E905871C /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1758FE2F57CFBC0B3C6BDBA8 /* MainRouter.swift */; };
+		E8E25DACAD6B3518AA62FDF8 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD1E4FB22E252FF2070827 /* MainRouterInput.swift */; };
+		ECEA516437D8E220672BCED3 /* MainViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8FCEC98B60D476FCB269B /* MainViewTests.swift */; };
 		FC81BAC8D02F5B1CE5831499 /* libPods-TravelOffersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C84705B2511C77C7FE72F9 /* libPods-TravelOffersTests.a */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +66,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1758FE2F57CFBC0B3C6BDBA8 /* MainRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		29C84705B2511C77C7FE72F9 /* libPods-TravelOffersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelOffersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32323D471B24957095C96A2F /* MainInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInitializer.swift; sourceTree = "<group>"; };
 		358ECB2E3E544DF5E8484B05 /* Pods-TravelOffers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffers.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffers/Pods-TravelOffers.release.xcconfig"; sourceTree = "<group>"; };
+		38C9B81EBED28977F2349D18 /* MainConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
 		3BF99117AAE7F533E2991F57 /* libPods-TravelOffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelOffers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		483D7AF530419CA9EF9D8E62 /* MainInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorTests.swift; sourceTree = "<group>"; };
 		4E2546851DB2499F006D8014 /* OfferModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferModelObject.h; sourceTree = "<group>"; };
 		4E2546861DB2499F006D8014 /* OfferModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferModelObject.m; sourceTree = "<group>"; };
 		4E25468A1DB24AA8006D8014 /* TravelOffers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelOffers.xcdatamodel; sourceTree = "<group>"; };
@@ -71,8 +104,21 @@
 		4E4D8FBF1DB2466400C6C354 /* TravelOffersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelOffersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4D8FC31DB2466400C6C354 /* TravelOffersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelOffersTests.m; sourceTree = "<group>"; };
 		4E4D8FC51DB2466400C6C354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DF21A3ED997487F08C0808 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6360C77B01239C02EDC4D958 /* MainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterTests.swift; sourceTree = "<group>"; };
+		75DD1E4FB22E252FF2070827 /* MainRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterInput.swift; sourceTree = "<group>"; };
+		7856EC29D1F0B014E5D2BD0D /* MainPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
 		8524C584C9A536624042FE27 /* Pods-TravelOffersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffersTests/Pods-TravelOffersTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewOutput.swift; sourceTree = "<group>"; };
+		983E15C6CC05A7E932556372 /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		A84FCCE76EC58C9BE85B9B5D /* MainConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainConfiguratorTests.swift; sourceTree = "<group>"; };
+		B51EEB734A2EB6F91B1DEFC4 /* MainInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorInput.swift; sourceTree = "<group>"; };
 		B7D20CD8DCA50CBF3B02E5F2 /* Pods-TravelOffers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffers/Pods-TravelOffers.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF8FCEC98B60D476FCB269B /* MainViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewTests.swift; sourceTree = "<group>"; };
+		DBF6BA16BFAFFF95C164F495 /* MainModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInput.swift; sourceTree = "<group>"; };
+		E381C0DE76EE0FB275DB38E2 /* MainViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
+		E840667660C5BB995BB73270 /* MainInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorOutput.swift; sourceTree = "<group>"; };
 		F531A71E7D04CA27BB89EAC7 /* Pods-TravelOffersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelOffersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelOffersTests/Pods-TravelOffersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +142,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B511DA03A4DF2E6217B9F8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				950B0E80AEF79D7C7CCC1586 /* Configurator */,
+				602AA86E72BA3814FA69E44B /* View */,
+				A86B4DCA63652A88FB56F855 /* Interactor */,
+				B0B09BB47757B709584E58D3 /* Presenter */,
+				2EA9B8386F3AAA3C52EBF496 /* Router */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0A84B98D02D72EBE44C665A9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				06B511DA03A4DF2E6217B9F8 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1D6B415852B54C7527B333AE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				75DD1E4FB22E252FF2070827 /* MainRouterInput.swift */,
+				1758FE2F57CFBC0B3C6BDBA8 /* MainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2EA9B8386F3AAA3C52EBF496 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				73D8863516E0CC7EADC41AB3 /* MainRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		3D0FDA25A7B51A73C4B8FC59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +194,7 @@
 				4E2546971DB25E62006D8014 /* CoreLayer */,
 				4E2546901DB250B9006D8014 /* BusinessLogicLayer */,
 				4E2546831DB2495C006D8014 /* Models */,
+				C064B4D582280D3A30D8C91D /* Modules */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -276,8 +360,26 @@
 			children = (
 				4E4D8FC31DB2466400C6C354 /* TravelOffersTests.m */,
 				4E4D8FC51DB2466400C6C354 /* Info.plist */,
+				F8B9A7A393961B560CF0797F /* Classes */,
 			);
 			path = TravelOffersTests;
+			sourceTree = "<group>";
+		};
+		602AA86E72BA3814FA69E44B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8FCEC98B60D476FCB269B /* MainViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80F3FFCC6CCBA3AA7B20454C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DBF6BA16BFAFFF95C164F495 /* MainModuleInput.swift */,
+				983E15C6CC05A7E932556372 /* MainPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		90FA2955771A8E1D27BB1F04 /* Pods */ = {
@@ -289,6 +391,87 @@
 				8524C584C9A536624042FE27 /* Pods-TravelOffersTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		93B99206A67A771C0AD30937 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E381C0DE76EE0FB275DB38E2 /* MainViewInput.swift */,
+				8B68149CBB0C86CE91448B22 /* MainViewOutput.swift */,
+				54DF21A3ED997487F08C0808 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		950B0E80AEF79D7C7CCC1586 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				A84FCCE76EC58C9BE85B9B5D /* MainConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A0047911224FAB47876DF7C8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B51EEB734A2EB6F91B1DEFC4 /* MainInteractorInput.swift */,
+				E840667660C5BB995BB73270 /* MainInteractorOutput.swift */,
+				6360C77B01239C02EDC4D958 /* MainInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A86B4DCA63652A88FB56F855 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				483D7AF530419CA9EF9D8E62 /* MainInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B0B09BB47757B709584E58D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7856EC29D1F0B014E5D2BD0D /* MainPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C064B4D582280D3A30D8C91D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EA18CFDBF81005358D51B086 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DE1299D8B8C8057D4D5EB51F /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				38C9B81EBED28977F2349D18 /* MainConfigurator.swift */,
+				32323D471B24957095C96A2F /* MainInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		EA18CFDBF81005358D51B086 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				93B99206A67A771C0AD30937 /* View */,
+				80F3FFCC6CCBA3AA7B20454C /* Presenter */,
+				A0047911224FAB47876DF7C8 /* Interactor */,
+				1D6B415852B54C7527B333AE /* Router */,
+				DE1299D8B8C8057D4D5EB51F /* Configurator */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F8B9A7A393961B560CF0797F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A84B98D02D72EBE44C665A9 /* Modules */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,11 +530,13 @@
 					4E4D8FA21DB2466400C6C354 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 6K9L8GL4MH;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					4E4D8FBE1DB2466400C6C354 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 6K9L8GL4MH;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4E4D8FA21DB2466400C6C354;
 					};
@@ -505,6 +690,18 @@
 				4E4D8FA81DB2466400C6C354 /* main.m in Sources */,
 				4E2546871DB2499F006D8014 /* OfferModelObject.m in Sources */,
 				4E25469C1DB25E92006D8014 /* NetworkClientImplementation.m in Sources */,
+				36CDFBEF25852A34DA630767 /* MainViewInput.swift in Sources */,
+				5D2C114B0D658BCBE775000A /* MainViewOutput.swift in Sources */,
+				5C2C634FE0BDD0030F37E54A /* MainViewController.swift in Sources */,
+				660BD79DB312080F1C728F7A /* MainModuleInput.swift in Sources */,
+				9F9638BD14E52C842A0050FC /* MainPresenter.swift in Sources */,
+				33D460FDE912058EB05F8644 /* MainInteractorInput.swift in Sources */,
+				4182917CBFB4737F8FFBEC84 /* MainInteractorOutput.swift in Sources */,
+				7583454212B2E7154D89D913 /* MainInteractor.swift in Sources */,
+				E8E25DACAD6B3518AA62FDF8 /* MainRouterInput.swift in Sources */,
+				D5F6393B690B82E7E905871C /* MainRouter.swift in Sources */,
+				18308CC288255347B011AC1D /* MainConfigurator.swift in Sources */,
+				039FF6B24FCF4DF8F34CD05D /* MainInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +709,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2546B71DB26A70006D8014 /* MainInteractorInput.swift in Sources */,
+				4E2546BB1DB26A79006D8014 /* MainRouter.swift in Sources */,
+				4E2546B31DB26A66006D8014 /* MainViewOutput.swift in Sources */,
 				4E4D8FC41DB2466400C6C354 /* TravelOffersTests.m in Sources */,
+				4E2546B21DB26A64006D8014 /* MainViewInput.swift in Sources */,
+				80A8CF8D886AB77EFB362907 /* MainConfiguratorTests.swift in Sources */,
+				4E2546B91DB26A74006D8014 /* MainInteractor.swift in Sources */,
+				4E2546BD1DB26A7F006D8014 /* MainInitializer.swift in Sources */,
+				4E2546BC1DB26A7D006D8014 /* MainConfigurator.swift in Sources */,
+				4E2546B81DB26A72006D8014 /* MainInteractorOutput.swift in Sources */,
+				ECEA516437D8E220672BCED3 /* MainViewTests.swift in Sources */,
+				D0153022136E78EE4F9A04D3 /* MainInteractorTests.swift in Sources */,
+				4E2546B41DB26A69006D8014 /* MainViewController.swift in Sources */,
+				8CAED100A152C80A1B492DA7 /* MainPresenterTests.swift in Sources */,
+				4E2546B61DB26A6D006D8014 /* MainPresenter.swift in Sources */,
+				626683B38534A49F6C34972F /* MainRouterTests.swift in Sources */,
+				4E2546BA1DB26A77006D8014 /* MainRouterInput.swift in Sources */,
+				4E2546B51DB26A6B006D8014 /* MainModuleInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +858,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryuzmukhametov.TravelOffers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -657,6 +872,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryuzmukhametov.TravelOffers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -670,6 +886,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryuzmukhametov.TravelOffersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelOffers.app/TravelOffers";
 			};
 			name = Debug;
@@ -684,6 +901,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryuzmukhametov.TravelOffersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelOffers.app/TravelOffers";
 			};
 			name = Release;
